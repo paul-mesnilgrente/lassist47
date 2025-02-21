@@ -11,6 +11,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        violine: "var(--violine)",
+        gold: "var(--gold)",
+        nblack: "var(--nblack)",
       },
     },
   },

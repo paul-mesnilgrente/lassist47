@@ -5,6 +5,9 @@
 :root {
   --background: #673147;
   --foreground: #ffffff;
+  --violine: #673147;
+  --gold: #f5b441;
+  --nblack: #1a1a1a;
 }
 
 body {
