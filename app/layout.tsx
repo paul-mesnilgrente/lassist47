@@ -41,8 +41,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={texGyreTermes.className}>
-        <header className="bg-nblack border-b-4 border-gold">
+      <body className={`${texGyreTermes.className} min-h-screen flex flex-col`}>
+        <header className="bg-nblack border-b-4 border-gold mb-11">
           <div className="container mx-auto flex justify-between items-end">
             <Image
               src="/lassist47/images/logos/full_logo_gold.png"
@@ -88,8 +88,8 @@ export default function RootLayout({
               </ul>
             </nav>
             <section arial-label="Social media" aria-label="Social media links">
-              <ul className="flex space-x-4">
-                <li className="bg-gold text-nblack p-1 me-2">
+              <ul className="flex space-x-2">
+                <li className="bg-gold text-nblack p-1">
                   <Link href="/mentions-legales">
                     <Image
                       src="/lassist47/images/logos/logo_linkedin.png"
@@ -99,7 +99,7 @@ export default function RootLayout({
                     />
                   </Link>
                 </li>
-                <li className="bg-gold text-nblack p-1 me-2">
+                <li className="bg-gold text-nblack p-1">
                   <Link href="/politique-de-confidentialite">
                     <Image
                       src="/lassist47/images/logos/logo_facebook.png"
@@ -113,29 +113,58 @@ export default function RootLayout({
             </section>
           </div>
         </header>
-        <main>{children}</main>
-        <footer>
-          <nav aria-label="Secondary navigation">
-            <ul>
-              <li>
-                <Link href="/conditions-generals-de-ventes">CGV</Link>
-              </li>
-              <li>
-                <Link href="/mentions-legales">Mentions Légales</Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <Image
-                    src="/lassist47/images/logos/logo_yellow.png"
-                    alt="Logo"
-                    width={50}
-                    height={50}
-                  />
-                </Link>
-              </li>
-              <li>&copy; {new Date().getFullYear()} / L&apos;assist&apos;47</li>
-            </ul>
-          </nav>
+
+        <main className="flex-grow">
+          <div className="w-3/4 mx-auto p-11 bg-nblack border-4 border-gold">
+            {children}
+          </div>
+        </main>
+
+        <footer className="mt-11 p-4 bg-nblack border-t-4 border-gold">
+          <div className="container mx-auto flex items-center justify-between">
+            <Link
+              className="hover:underline"
+              href="/conditions-generals-de-ventes"
+            >
+              CGV
+            </Link>
+            <Link className="hover:underline" href="/mentions-legales">
+              Mentions Légales
+            </Link>
+            <Link href="/">
+              <Image
+                src="/lassist47/images/logos/logo_yellow.png"
+                alt="Logo"
+                width={50}
+                height={50}
+              />
+            </Link>
+            <div>&copy; {new Date().getFullYear()} / L&apos;assist&apos;47</div>
+            <section arial-label="Social media" aria-label="Social media links">
+              <ul className="flex space-x-2">
+                <li className="bg-gold text-nblack p-1">
+                  <Link href="/mentions-legales">
+                    <Image
+                      src="/lassist47/images/logos/logo_linkedin.png"
+                      alt="LinkedIn"
+                      width={33}
+                      height={33}
+                    />
+                  </Link>
+                </li>
+                <li className="bg-gold text-nblack p-1">
+                  <Link href="/politique-de-confidentialite">
+                    <Image
+                      src="/lassist47/images/logos/logo_facebook.png"
+                      alt="Facebook"
+                      width={33}
+                      height={33}
+                    />
+                  </Link>
+                </li>
+              </ul>
+            </section>
+          </div>
         </footer>
       </body>
     </html>
