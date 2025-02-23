@@ -19,7 +19,7 @@ export default function MentionsLegales() {
       <p className="pb-2">
         Responsable de publication : Ludivine PELOSATO
         <br />
-        Créateur du site : EI Paul MESNILGRENTE, mail pro
+        Créateur du site : EI Paul MESNILGRENTE, pro@paul-mesnilgrente.com
         <br />
         Charte graphique : Aurélien PELOSATO
       </p>
