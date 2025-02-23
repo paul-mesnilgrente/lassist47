@@ -50,7 +50,7 @@ export default function RootLayout({
             </Link>
             <nav aria-label="Main navigation">
               <ul className="flex space-x-4 uppercase">
-                <li className="bg-gold text-nblack p-2 me-2 min-w-40 text-center">
+                <li className="bg-gold text-nblack p-2 min-w-40 text-center">
                   <Link
                     className="block w-full h-full hover:underline"
                     href="/"
@@ -58,7 +58,7 @@ export default function RootLayout({
                     Accueil
                   </Link>
                 </li>
-                <li className="bg-gold text-nblack p-2 me-2 min-w-40 text-center">
+                <li className="bg-gold text-nblack p-2 min-w-40 text-center">
                   <Link
                     className="block w-full h-full hover:underline"
                     href="/prestations"
@@ -66,7 +66,7 @@ export default function RootLayout({
                     Prestations
                   </Link>
                 </li>
-                <li className="bg-gold text-nblack p-2 me-2 min-w-40 text-center">
+                <li className="bg-gold text-nblack p-2 min-w-40 text-center">
                   <Link
                     className="block w-full h-full hover:underline"
                     href="/tarifs"
@@ -74,7 +74,7 @@ export default function RootLayout({
                     Tarifs
                   </Link>
                 </li>
-                <li className="bg-gold text-nblack p-2 me-2 min-w-40 text-center">
+                <li className="bg-gold text-nblack p-2 min-w-40 text-center">
                   <Link
                     className="block w-full h-full hover:underline"
                     href="/contact"
