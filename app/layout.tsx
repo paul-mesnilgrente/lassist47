@@ -44,13 +44,15 @@ export default function RootLayout({
       <body className={`${texGyreTermes.className} min-h-screen flex flex-col`}>
         <header className="bg-nblack border-b-4 border-gold mb-11">
           <div className="container mx-auto flex justify-between items-end">
-            <Image
-              src="/lassist47/images/logos/full_logo_gold.png"
-              alt="Logo"
-              className="m-4"
-              width={150}
-              height={200}
-            />
+            <Link href="/">
+              <Image
+                src="/lassist47/images/logos/full_logo_gold.png"
+                alt="Logo"
+                className="m-4"
+                width={150}
+                height={200}
+              />
+            </Link>
             <nav aria-label="Main navigation">
               <ul className="flex space-x-4">
                 <li className="bg-gold text-nblack p-2 me-2 min-w-40 text-center">
@@ -114,7 +116,7 @@ export default function RootLayout({
           </div>
         </header>
 
-        <main className="flex-grow">
+        <main className="flex flex-col justify-center flex-grow">
           <div className="w-3/4 mx-auto p-11 bg-nblack border-4 border-gold">
             {children}
           </div>
