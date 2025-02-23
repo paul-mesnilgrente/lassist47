@@ -124,7 +124,7 @@ export default function RootLayout({
           <div className="container mx-auto flex items-center justify-between">
             <Link
               className="hover:underline"
-              href="/conditions-generals-de-ventes"
+              href="/conditions-generales-de-vente"
             >
               CGV
             </Link>
