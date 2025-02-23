@@ -9,8 +9,8 @@ export default function Home() {
           src="/lassist47/images/portrait.webp"
           alt="Portrait de Ludivine Pelosato"
           className=""
-          width={300}
-          height={400}
+          width={250}
+          height={300}
         />
         <div>
           <p className="pb-2">

@@ -11,15 +11,22 @@ export default function MentionsLegales() {
         <br />
         518 côte de Limousy, 47380 Pinel-Hauterive
         <br />
-        lpelosato@lassist47.fr
+        <a href="mailto:lpelosato@lassist47.fr" className="underline">
+          lpelosato@lassist47.fr
+        </a>
         <br />
-        07 88 06 75 19
+        <a href="tel:+33788067519" className="underline">
+          07 88 06 75 19
+        </a>
       </p>
 
       <p className="pb-2">
         Responsable de publication : Ludivine PELOSATO
         <br />
-        Créateur du site : EI Paul MESNILGRENTE, pro@paul-mesnilgrente.com
+        Créateur du site : EI Paul MESNILGRENTE,{" "}
+        <a href="mailto:pro@paul-mesnilgrente.com" className="underline">
+          pro@paul-mesnilgrente.com
+        </a>
         <br />
         Charte graphique : Aurélien PELOSATO
       </p>
@@ -34,7 +41,15 @@ export default function MentionsLegales() {
         <br />
         États-Unis
         <br />
-        Site web : https://pages.github.com
+        Site web :{" "}
+        <a
+          href="https://pages.github.com"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="underline"
+        >
+          https://pages.github.com
+        </a>
       </p>
 
       <h2 className="text-xl pb-2">Politique de confidentialité</h2>
