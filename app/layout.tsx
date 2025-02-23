@@ -4,29 +4,22 @@ import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 
-const texGyreTermes = localFont({
+const cambria = localFont({
   src: [
-    {
-      path: "../fonts/tex-gyre-termes/texgyretermes-regular.otf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../fonts/tex-gyre-termes/texgyretermes-bold.otf",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "../fonts/tex-gyre-termes/texgyretermes-italic.otf",
-      weight: "400",
-      style: "italic",
-    },
-    {
-      path: "../fonts/tex-gyre-termes/texgyretermes-bolditalic.otf",
-      weight: "700",
-      style: "italic",
-    },
+    { path: "../fonts/cambria/cambria_for_windows.woff2" },
+    { path: "../fonts/cambria/cambria_for_windows.woff" },
+    { path: "../fonts/cambria/cambria_for_windows.ttf" },
   ],
+  variable: "--font-cambria",
+});
+
+const bahnschrift = localFont({
+  src: [
+    { path: "../fonts/bahnschrift/bahnschrift.woff2" },
+    { path: "../fonts/bahnschrift/bahnschrift.woff" },
+    { path: "../fonts/bahnschrift/bahnschrift.ttf" },
+  ],
+  variable: "--font-bahnschrift",
 });
 
 export const metadata: Metadata = {
@@ -41,7 +34,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${texGyreTermes.className} min-h-screen flex flex-col`}>
+      <body
+        className={`${cambria.variable} ${bahnschrift.variable} min-h-screen flex flex-col`}
+      >
         <header className="bg-nblack border-b-4 border-gold mb-11">
           <div className="container mx-auto flex justify-between items-end">
             <Link href="/">
@@ -54,7 +49,7 @@ export default function RootLayout({
               />
             </Link>
             <nav aria-label="Main navigation">
-              <ul className="flex space-x-4">
+              <ul className="flex space-x-4 uppercase">
                 <li className="bg-gold text-nblack p-2 me-2 min-w-40 text-center">
                   <Link
                     className="block w-full h-full hover:underline"
@@ -122,7 +117,7 @@ export default function RootLayout({
           </div>
         </main>
 
-        <footer className="mt-11 p-4 bg-nblack border-t-4 border-gold">
+        <footer className="mt-11 p-4 bg-nblack text-gold border-t-4 border-gold">
           <div className="container mx-auto flex items-center justify-between">
             <Link
               className="hover:underline"

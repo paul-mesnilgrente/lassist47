@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <h1 className="text-2xl pb-3">Présentation</h1>
+      <h1 className="text-2xl pb-3 font-bold">Présentation</h1>
       <p className="pb-2">
         Bonjour, je suis Ludivine Pelosato, assistante administrative
         indépendante. Passionnée par l&apos;organisation et la gestion,
