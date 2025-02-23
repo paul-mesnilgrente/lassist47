@@ -50,10 +50,10 @@ export default function MentionsLegales() {
       <p className="pb-2">
         Conformément à la loi Informatique et Libertés du 6 janvier 1978
         modifiée et au Règlement Général sur la Protection des Données (RGPD),
-        l&apos;utilisateur dispose d'un droit d'accès, de rectification, de
-        suppression et d'opposition aux données le concernant. Il peut exercer
-        ces droits en me contactant à l'adresse mentionnée ci-dessus ou par mail
-        à lpelosato@lassist47.fr.
+        l&apos;utilisateur dispose d&apos;un droit d&apos;accès, de
+        rectification, de suppression et d&apos;opposition aux données le
+        concernant. Il peut exercer ces droits en me contactant à l&apos;adresse
+        mentionnée ci-dessus ou par mail à lpelosato@lassist47.fr.
       </p>
     </>
   );

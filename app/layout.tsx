@@ -56,7 +56,7 @@ export default function RootLayout({
                 <li className="bg-gold text-nblack p-2 me-2 min-w-40 text-center">
                   <Link
                     className="block w-full h-full hover:underline"
-                    href="/accueil"
+                    href="/"
                   >
                     Accueil
                   </Link>
