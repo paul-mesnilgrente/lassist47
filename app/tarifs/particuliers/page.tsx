@@ -1,8 +1,9 @@
 import ContentContainer from "@/components/ContentContainer";
+import TarifsTabs from "@/components/TarifsTabs";
 
 export default function Particuliers() {
   return (
-    <ContentContainer>
+    <ContentContainer tabs={<TarifsTabs />}>
       <ul className="list-disc mb-4">
         <li>
           Tarif à l&apos;heure : 25€ l&apos;heure
