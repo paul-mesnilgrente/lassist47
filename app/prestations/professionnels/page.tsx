@@ -1,8 +1,9 @@
 import ContentContainer from "@/components/ContentContainer";
+import PrestationsProfessionnelsTabs from "@/components/PrestationsProfessionnelsTabs";
 
 export default function Professionnels() {
   return (
-    <ContentContainer>
+    <ContentContainer tabs={<PrestationsProfessionnelsTabs />}>
       <h1 className="text-2xl">Assistance administrative</h1>
       <ul className="list-disc mb-4">
         <li>Gestion de planning et agenda</li>
