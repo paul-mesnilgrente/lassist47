@@ -11,11 +11,14 @@ export default function MentionsLegales() {
         <br />
         518 côte de Limousy, 47380 Pinel-Hauterive
         <br />
-        <a href="mailto:lpelosato@lassist47.fr" className="underline">
+        <a
+          href="mailto:lpelosato@lassist47.fr"
+          className="underline hover:text-gold"
+        >
           lpelosato@lassist47.fr
         </a>
         <br />
-        <a href="tel:+33788067519" className="underline">
+        <a href="tel:+33788067519" className="underline hover:text-gold">
           07 88 06 75 19
         </a>
       </p>
@@ -24,7 +27,10 @@ export default function MentionsLegales() {
         Responsable de publication : Ludivine PELOSATO
         <br />
         Créateur du site : EI Paul MESNILGRENTE,{" "}
-        <a href="mailto:pro@paul-mesnilgrente.com" className="underline">
+        <a
+          href="mailto:pro@paul-mesnilgrente.com"
+          className="underline hover:text-gold"
+        >
           pro@paul-mesnilgrente.com
         </a>
         <br />
@@ -46,7 +52,7 @@ export default function MentionsLegales() {
           href="https://pages.github.com"
           target="_blank"
           rel="noreferrer noopener"
-          className="underline"
+          className="underline hover:text-gold"
         >
           https://pages.github.com
         </a>
