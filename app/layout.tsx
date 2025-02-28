@@ -24,8 +24,32 @@ const bahnschrift = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "L'assist47",
+  title: {
+    template: "%s | L'assist47",
+    default: "L'assist47",
+  },
   description: "TODO",
+  icons: {
+    other: [
+      {
+        url: "/lassist47/favicons/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+        rel: "apple-touch-icon",
+      },
+      {
+        url: "/lassist47/favicons/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/lassist47/favicons/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+    ],
+  },
+  manifest: "/lassist47/favicons/site.webmanifest",
 };
 
 export default function RootLayout({
