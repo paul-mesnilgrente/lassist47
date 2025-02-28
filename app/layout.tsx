@@ -1,3 +1,4 @@
+import Nav from "@/components/Nav";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Image from "next/image";
@@ -48,42 +49,7 @@ export default function RootLayout({
                 height={200}
               />
             </Link>
-            <nav aria-label="Main navigation">
-              <ul className="flex space-x-4 uppercase">
-                <li className="bg-gold text-nblack p-2 min-w-40 text-center">
-                  <Link
-                    className="block w-full h-full hover:underline"
-                    href="/"
-                  >
-                    Accueil
-                  </Link>
-                </li>
-                <li className="bg-gold text-nblack p-2 min-w-40 text-center">
-                  <Link
-                    className="block w-full h-full hover:underline"
-                    href="/prestations"
-                  >
-                    Prestations
-                  </Link>
-                </li>
-                <li className="bg-gold text-nblack p-2 min-w-40 text-center">
-                  <Link
-                    className="block w-full h-full hover:underline"
-                    href="/tarifs"
-                  >
-                    Tarifs
-                  </Link>
-                </li>
-                <li className="bg-gold text-nblack p-2 min-w-40 text-center">
-                  <Link
-                    className="block w-full h-full hover:underline"
-                    href="/contact"
-                  >
-                    Contactez-moi
-                  </Link>
-                </li>
-              </ul>
-            </nav>
+            <Nav />
             <section arial-label="Social media" aria-label="Social media links">
               <ul className="flex space-x-2">
                 <li className="bg-gold text-nblack p-1">
