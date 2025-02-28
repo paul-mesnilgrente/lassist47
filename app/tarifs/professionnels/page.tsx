@@ -1,6 +1,8 @@
+import ContentContainer from "@/components/ContentContainer";
+
 export default function Professionnels() {
   return (
-    <>
+    <ContentContainer>
       <ul className="list-disc mb-4">
         <li>
           Tarif à l&apos;heure : 30€ en télétravail ; 32€ sur site (max 30km)
@@ -11,6 +13,6 @@ export default function Professionnels() {
         </li>
       </ul>
       <p>Devis selon vos besoins à la demande.</p>
-    </>
+    </ContentContainer>
   );
 }

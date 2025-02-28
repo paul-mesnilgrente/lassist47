@@ -1,6 +1,8 @@
+import ContentContainer from "@/components/ContentContainer";
+
 export default function Particuliers() {
   return (
-    <>
+    <ContentContainer>
       <ul className="list-disc mb-4">
         <li>
           Tarif à l&apos;heure : 25€ l&apos;heure
@@ -10,6 +12,6 @@ export default function Particuliers() {
         <li>Pour l&apos;évenementiel : 30€ l&apos;heure</li>
       </ul>
       <p>Devis selon vos besoins à la demande.</p>
-    </>
+    </ContentContainer>
   );
 }

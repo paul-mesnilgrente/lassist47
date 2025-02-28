@@ -1,6 +1,8 @@
+import ContentContainer from "@/components/ContentContainer";
+
 export default function Professionnels() {
   return (
-    <>
+    <ContentContainer>
       <h1 className="text-2xl">Assistance administrative</h1>
       <ul className="list-disc mb-4">
         <li>Gestion de planning et agenda</li>
@@ -63,6 +65,6 @@ export default function Professionnels() {
         <li>Suivi des visites médicales</li>
         <li>Préparation des documents d&apos;embauche</li>
       </ul>
-    </>
+    </ContentContainer>
   );
 }

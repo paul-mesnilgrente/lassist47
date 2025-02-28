@@ -1,6 +1,8 @@
+import ContentContainer from "@/components/ContentContainer";
+
 export default function MentionsLegales() {
   return (
-    <>
+    <ContentContainer>
       <h1 className="text-2xl pb-3">Mentions légales</h1>
 
       <h2 className="text-xl pb-2">Société editrice</h2>
@@ -76,6 +78,6 @@ export default function MentionsLegales() {
         concernant. Il peut exercer ces droits en me contactant à l&apos;adresse
         mentionnée ci-dessus ou par mail à lpelosato@lassist47.fr.
       </p>
-    </>
+    </ContentContainer>
   );
 }

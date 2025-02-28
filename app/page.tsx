@@ -1,8 +1,9 @@
+import ContentContainer from "@/components/ContentContainer";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
+    <ContentContainer>
       <h1 className="text-2xl pb-3 font-bold">Présentation</h1>
       <div className="flex justify-between space-x-6">
         <Image
@@ -49,6 +50,6 @@ export default function Home() {
           </ul>
         </div>
       </div>
-    </>
+    </ContentContainer>
   );
 }

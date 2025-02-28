@@ -1,6 +1,8 @@
+import ContentContainer from "@/components/ContentContainer";
+
 export default function Particuliers() {
   return (
-    <>
+    <ContentContainer>
       <h1 className="text-2xl">Assistance administrative</h1>
       <ul className="list-disc mb-4">
         <li>Rédaction, relecture et mise en page de document et courrier</li>
@@ -22,6 +24,6 @@ export default function Particuliers() {
           Tok)
         </li>
       </ul>
-    </>
+    </ContentContainer>
   );
 }

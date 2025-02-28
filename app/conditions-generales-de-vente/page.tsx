@@ -1,6 +1,8 @@
+import ContentContainer from "@/components/ContentContainer";
+
 export default function ConditionsGeneralesDeVente() {
   return (
-    <>
+    <ContentContainer>
       <h1 className="text-4xl pb-6">
         Conditions générales de prestation de services
       </h1>
@@ -314,6 +316,6 @@ export default function ConditionsGeneralesDeVente() {
         litige relatif à l&apos;interprétation et à l&apos;exécution des
         présentes CGV est soumis au droit français.
       </p>
-    </>
+    </ContentContainer>
   );
 }

@@ -64,9 +64,7 @@ export default function RootLayout({
         <Header />
 
         <main className="flex flex-col justify-center flex-grow">
-          <div className="w-3/4 mx-auto p-11 bg-nblack border-4 border-gold">
-            {children}
-          </div>
+          {children}
         </main>
 
         <Footer />

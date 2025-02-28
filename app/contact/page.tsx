@@ -1,8 +1,9 @@
+import ContentContainer from "@/components/ContentContainer";
 import Image from "next/image";
 
 export default function Contact() {
   return (
-    <>
+    <ContentContainer>
       <form className="flex flex-col gap-11">
         <div className="flex items-end justify-between">
           <div className="flex flex-grow mr-6 flex-col gap-11">
@@ -73,6 +74,6 @@ export default function Contact() {
           </button>
         </div>
       </form>
-    </>
+    </ContentContainer>
   );
 }
