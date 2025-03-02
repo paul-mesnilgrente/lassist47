@@ -1,6 +1,10 @@
 import ContentContainer from "@/components/ContentContainer";
 import TarifsTabs from "@/components/TarifsTabs";
 
+export const metadata = {
+  title: "Tarifs pour les particuliers",
+};
+
 export default function Particuliers() {
   return (
     <ContentContainer tabs={<TarifsTabs />}>

@@ -1,5 +1,9 @@
 import ContentContainer from "@/components/ContentContainer";
 
+export const metadata = {
+  title: "Mentions légales",
+};
+
 export default function MentionsLegales() {
   return (
     <ContentContainer>

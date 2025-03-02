@@ -1,5 +1,9 @@
 import ContentContainer from "@/components/ContentContainer";
 
+export const metadata = {
+  title: "CGV",
+};
+
 export default function ConditionsGeneralesDeVente() {
   return (
     <ContentContainer>

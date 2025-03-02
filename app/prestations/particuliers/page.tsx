@@ -1,5 +1,9 @@
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
 
+export const metadata = {
+  title: "Prestations pour les particuliers",
+};
+
 export default function Particuliers() {
   return (
     <div className="w-3/4 mx-auto">

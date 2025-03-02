@@ -1,6 +1,8 @@
-"use client";
-
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
+
+export const metadata = {
+  title: "Prestations pour les professionnels",
+};
 
 export default function Professionnels() {
   return (

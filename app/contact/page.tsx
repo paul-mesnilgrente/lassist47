@@ -2,6 +2,10 @@ import Captcha from "@/components/Captcha";
 import ContentContainer from "@/components/ContentContainer";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Contact",
+};
+
 export default function Contact() {
   return (
     <ContentContainer>
