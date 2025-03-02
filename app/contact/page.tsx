@@ -1,10 +1,15 @@
+import Captcha from "@/components/Captcha";
 import ContentContainer from "@/components/ContentContainer";
 import Image from "next/image";
 
 export default function Contact() {
   return (
     <ContentContainer>
-      <form className="flex flex-col gap-11">
+      <form
+        className="flex flex-col gap-11"
+        action="https://formspree.io/f/xgvognzn"
+        method="POST"
+      >
         <div className="flex items-end justify-between">
           <div className="flex flex-grow mr-6 flex-col gap-11">
             <label htmlFor="name" className="block pb-1 sr-only">
@@ -59,13 +64,9 @@ export default function Contact() {
           className="w-full bg-violine px-4 py-1 text-2xl text-gold placeholder:text-gold"
         ></textarea>
 
-        <div className="flex justify-between">
-          <button
-            type="reset"
-            className="bg-white text-nblack px-6 py-2 text-2xl uppercase"
-          >
-            Captcha
-          </button>
+        <div className="flex justify-between items-center">
+          <Captcha />
+
           <button
             type="submit"
             className="bg-violine text-gold px-6 py-2 text-2xl uppercase"
