@@ -19,24 +19,32 @@ export default function Header() {
         <section arial-label="Social media" aria-label="Social media links">
           <ul className="flex space-x-2">
             <li className="bg-gold text-nblack p-1">
-              <Link href="/mentions-legales">
+              <a
+                href="https://www.linkedin.com/in/lassist47/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <Image
                   src="/lassist47/images/logos/logo_linkedin.png"
                   alt="LinkedIn"
                   width={33}
                   height={33}
                 />
-              </Link>
+              </a>
             </li>
             <li className="bg-gold text-nblack p-1">
-              <Link href="/politique-de-confidentialite">
+              <a
+                href="https://www.facebook.com/people/Lassist47/61572424965502/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <Image
                   src="/lassist47/images/logos/logo_facebook.png"
                   alt="Facebook"
                   width={33}
                   height={33}
                 />
-              </Link>
+              </a>
             </li>
           </ul>
         </section>
