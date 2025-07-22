@@ -5,18 +5,12 @@ export default function TarifsTabs() {
     <nav role="navigation" aria-label="Navigation des tarifs">
       <ul className="flex space-x-4 uppercase">
         <li className="bg-gold text-nblack p-2 min-w-40 text-center">
-          <Link
-            className="block w-full h-full hover:underline"
-            href="/tarifs/professionnels"
-          >
+          <Link className="block w-full h-full hover:underline" href="/tarifs">
             Tarifs Professionnels
           </Link>
         </li>
         <li className="bg-gold text-nblack p-2 min-w-40 text-center">
-          <Link
-            className="block w-full h-full hover:underline"
-            href="/tarifs/particuliers"
-          >
+          <Link className="block w-full h-full hover:underline" href="/tarifs">
             Tarifs Particuliers
           </Link>
         </li>

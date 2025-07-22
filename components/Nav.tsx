@@ -44,40 +44,11 @@ export default function Nav() {
             </div>
           </MenuItems>
         </Menu>
-        <Menu
-          as="li"
-          className="relative bg-gold text-nblack p-2 min-w-40 text-center"
-        >
-          <div>
-            <MenuButton className="inline-flex w-full justify-center gap-x-1.5 uppercase">
-              Tarifs
-            </MenuButton>
-          </div>
-
-          <MenuItems
-            transition
-            className="absolute right-0 z-10 mt-5 w-full origin-top-right ring-1 shadow-lg ring-black/5 transition focus:outline-hidden data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in"
-          >
-            <div>
-              <MenuItem>
-                <Link
-                  className="block mb-2 p-2 bg-gold data-focus:bg-gold data-focus:text-gray-900 data-focus:outline-hidden"
-                  href="/tarifs/professionnels"
-                >
-                  Professionels
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                <Link
-                  className="block p-2 bg-gold data-focus:bg-gold data-focus:text-gray-900 data-focus:outline-hidden"
-                  href="/tarifs/particuliers"
-                >
-                  Particuliers
-                </Link>
-              </MenuItem>
-            </div>
-          </MenuItems>
-        </Menu>
+        <li className="bg-gold text-nblack p-2 min-w-40 text-center">
+          <Link className="block w-full h-full hover:underline" href="/tarifs">
+            Tarifs
+          </Link>
+        </li>
         <li className="bg-gold text-nblack p-2 min-w-40 text-center">
           <Link className="block w-full h-full hover:underline" href="/contact">
             Contactez-moi
