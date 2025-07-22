@@ -11,7 +11,7 @@ export default function Contact() {
     <ContentContainer>
       <form
         className="flex flex-col gap-11"
-        action="https://formspree.io/f/xgvognzn"
+        action="https://formspree.io/f/xyzpekqn"
         method="POST"
       >
         <div className="flex items-end justify-between">
