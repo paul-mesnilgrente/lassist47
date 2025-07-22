@@ -31,24 +31,24 @@ export const metadata: Metadata = {
   icons: {
     other: [
       {
-        url: "/lassist47/favicons/apple-touch-icon.png",
+        url: "/favicons/apple-touch-icon.png",
         sizes: "180x180",
         type: "image/png",
         rel: "apple-touch-icon",
       },
       {
-        url: "/lassist47/favicons/favicon-32x32.png",
+        url: "/favicons/favicon-32x32.png",
         sizes: "32x32",
         type: "image/png",
       },
       {
-        url: "/lassist47/favicons/favicon-16x16.png",
+        url: "/favicons/favicon-16x16.png",
         sizes: "16x16",
         type: "image/png",
       },
     ],
   },
-  manifest: "/lassist47/favicons/site.webmanifest",
+  manifest: "/favicons/site.webmanifest",
 };
 
 export default function RootLayout({

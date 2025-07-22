@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className="text-2xl pb-3 font-bold">Présentation</h1>
       <div className="flex justify-between space-x-6">
         <Image
-          src="/lassist47/images/portrait.webp"
+          src="/images/portrait.webp"
           alt="Portrait de Ludivine Pelosato"
           className=""
           width={250}

@@ -8,7 +8,7 @@ export default function Header() {
       <div className="container mx-auto flex justify-between items-end">
         <Link href="/">
           <Image
-            src="/lassist47/images/logos/full_logo_gold.png"
+            src="/images/logos/full_logo_gold.png"
             alt="Logo"
             className="m-4"
             width={150}
@@ -25,7 +25,7 @@ export default function Header() {
                 rel="noreferrer noopener"
               >
                 <Image
-                  src="/lassist47/images/logos/logo_linkedin.png"
+                  src="/images/logos/logo_linkedin.png"
                   alt="LinkedIn"
                   width={33}
                   height={33}
@@ -39,7 +39,7 @@ export default function Header() {
                 rel="noreferrer noopener"
               >
                 <Image
-                  src="/lassist47/images/logos/logo_facebook.png"
+                  src="/images/logos/logo_facebook.png"
                   alt="Facebook"
                   width={33}
                   height={33}

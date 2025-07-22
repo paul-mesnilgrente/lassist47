@@ -50,7 +50,7 @@ export default function Contact() {
             />
           </div>
           <Image
-            src="/lassist47/images/logos/logo_contact.png"
+            src="/images/logos/logo_contact.png"
             className="mb-11"
             width={200}
             height={200}

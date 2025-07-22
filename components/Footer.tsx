@@ -13,7 +13,7 @@ export default function Footer() {
         </Link>
         <Link href="/">
           <Image
-            src="/lassist47/images/logos/logo_yellow.png"
+            src="/images/logos/logo_yellow.png"
             alt="Logo"
             width={50}
             height={50}
@@ -29,7 +29,7 @@ export default function Footer() {
                 rel="noreferrer noopener"
               >
                 <Image
-                  src="/lassist47/images/logos/logo_linkedin.png"
+                  src="/images/logos/logo_linkedin.png"
                   alt="LinkedIn"
                   width={33}
                   height={33}
@@ -43,7 +43,7 @@ export default function Footer() {
                 rel="noreferrer noopener"
               >
                 <Image
-                  src="/lassist47/images/logos/logo_facebook.png"
+                  src="/images/logos/logo_facebook.png"
                   alt="Facebook"
                   width={33}
                   height={33}
