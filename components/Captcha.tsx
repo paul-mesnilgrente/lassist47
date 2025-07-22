@@ -17,7 +17,7 @@ export default function Captcha() {
   return (
     <>
       <HCaptcha
-        sitekey="ba1e404e-7b9a-470a-bb80-eaf4c0f85f8c"
+        sitekey="bc388656-9eca-4022-8516-38609520afe2"
         onVerify={handleVerify}
         onExpire={handleExpire}
       />
