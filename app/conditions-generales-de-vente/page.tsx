@@ -6,23 +6,23 @@ export const metadata = {
 
 export default function ConditionsGeneralesDeVente() {
   return (
-    <ContentContainer>
+    <ContentContainer className="cgv">
       <h1 className="text-4xl pb-6">
         Conditions générales de prestation de services
       </h1>
 
-      <h2 className="text-xl pb-3">1. Objet</h2>
+      <h2 className="text-xl pb-3">Objet</h2>
       <p className="pb-2">
         Les présentes conditions générales de prestations de service (ci-après,
         les « CGV ») régissent les relations commerciales entre Madame PELOSATO
         Ludivine, le « Prestataire », et le Client (nommés ensemble, « Les
         Parties »). Celles-ci sont applicables à toutes commandes de prestations
         passées auprès de l&apos;Entreprise Individuelle Ludivine PELOSATO,
-        micro-entrepreneure, enregistrée sous le n° SIRET : 123 456 789 00047
+        micro-entrepreneure, enregistrée sous le n° SIRET : 988 744 348 00018
         sous le nom de L&apos;Assist&apos;47
       </p>
 
-      <h2 className="text-xl pb-3">2. Application</h2>
+      <h2 className="text-xl pb-3">Application</h2>
       <p className="pb-2">
         Sauf accord express et écrit contraire des Parties, toute commande
         implique, pour devenir ferme et définitive, l&apos;adhésion entière et
@@ -38,74 +38,54 @@ export default function ConditionsGeneralesDeVente() {
         sa part à s&apos;en prévaloir.
       </p>
 
-      <h2 className="text-xl pb-3">3. Obligation des parties</h2>
-      <h3 className="text-lg pb-1">
-        3.1 Obligation et engagement du Prestataire
-      </h3>
-      <p className="pb-2">Le Prestataire s&apos;engage à :</p>
-      <ul>
-        <li>
-          effectuer la prestation au domicile du Prestataire ou directement sur
-          site, selon le mode consenti entre les deux parties.{" "}
-        </li>
-        <li>
-          mettre en œuvre tout son savoir-faire pour réaliser la mission qui lui
-          aura été confiée et s&apos;engage à solliciter du Client, toutes les
-          informations nécessaires à la parfaire réalisation de la mission.
-        </li>
-        <li>
-          informer sans délai le Client de toutes les contraintes liées à sa
-          mission et/ou des difficultés rencontrées.
-        </li>
-      </ul>
+      <h2 className="text-xl pb-3">Obligation des parties</h2>
+      <h3 className="text-lg pb-1">Obligation et engagement du Prestataire</h3>
+      <p className="pb-2">
+        Le Prestataire s&apos;engage à effectuer la prestation au domicile du
+        Prestataire ou directement sur site, selon le mode consenti entre les
+        deux parties ; mettre en œuvre tout son savoir-faire pour réaliser la
+        mission qui lui aura été confiée et s&apos;engage à solliciter du
+        Client, toutes les informations nécessaires à la parfaite réalisation de
+        la mission ; informer sans délai le Client de toutes les contraintes
+        liées à sa mission et/ou des difficultés rencontrées.
+      </p>
       <p className="pb-2">
         Une fois la mission réalisée, le travail sera remis au client selon le
-        délai fixé et selon le mode de transmission convenu dans le devis.
+        délai fixé et selon le mode de transmission convenu.
       </p>
-
-      <h3 className="text-lg pb-1">3.2 Obligation et engagement du Client</h3>
-      <p className="pb-2">Le Client s&apos;engage à :</p>
-      <ul>
-        <li>
-          apporter la collaboration et la coopération nécessaires à la
-          réalisation de la prestation par le Prestataire.{" "}
-        </li>
-        <li>
-          transmettre tous les documents et informations dont le Prestataire
-          aura besoin pour la bonne réalisation de la tâche confiée.
-        </li>
-        <li>
-          régler au Prestataire aux échéances prévues, le prix de la prestation
-          convenu selon la facture.
-        </li>
-      </ul>
-
+      <h3 className="text-lg pb-1">Obligation et engagement du Client</h3>
       <p className="pb-2">
-        Au cas où le client serait insatisfait des prestations réalisée par le
+        Le Client s&apos;engage à apporter la collaboration et la coopération
+        nécessaires à la réalisation de la prestation par le Prestataire ;
+        transmettre tous les documents et informations dont le Prestataire aura
+        besoin pour la bonne réalisation de la tâche confiée ; régler au
+        Prestataire aux échéances prévues, le prix de la prestation convenu
+        selon la facture.
+      </p>
+      <p className="pb-2">
+        Au cas où le client serait insatisfait des prestations réalisées par le
         Prestataire et souhaiterait que le travail soit éventuellement corrigé,
         il doit en informer le Prestataire par écrit dans les soixante-douze
         (72) heures suivant la fin de la réalisation de la prestation. Passé ce
         délai, la prestation sera considérée comme dûment exécutée et son
         paiement devra être honoré.
       </p>
-
       <h3 className="text-lg pb-1">
-        3.3 Durée des contrats de prestation de services
+        Durée des contrats de prestation de services
       </h3>
       <p className="pb-2">
         Pour les prestations ponctuelles, le contrat prend fin à l&apos;issue de
         la mission.
       </p>
       <p className="pb-2">
-        Pour les prestations régulières (forfait au mois), les présents contrats
-        de prestation de services, sont fixés pour une durée indéterminée. Ces
-        contrats sont résiliables par demande écrite de l&apos;une ou
-        l&apos;autre partie sept(7) jours avant la fin du mois en cours, sous
-        condition pour le Client que toutes les prestations effectuées aient été
-        réglées au Prestataire.
+        Pour les prestations régulières (forfait au mois), le contrat est fixé
+        pour une durée indéterminée. Ce contrat est résiliable par demande
+        écrite de l&apos;une ou l&apos;autre partie sept(7) jours avant la fin
+        du mois en cours, sous condition pour le Client que toutes les
+        prestations effectuées aient été réglées au Prestataire.
       </p>
 
-      <h2 className="text-xl pb-3">4. Exécution et délais de livraison</h2>
+      <h2 className="text-xl pb-3">Exécution et délais de livraison</h2>
       <p className="pb-2">
         Toute prestation commandée fera l&apos;objet d&apos;un accord sur le
         délai de réalisation en fonction de la tâche confiée. Le Prestataire
@@ -140,17 +120,18 @@ export default function ConditionsGeneralesDeVente() {
         intentions seraient contraires à l&apos;honnêteté ou à la morale.
       </p>
 
-      <h2 className="text-xl pb-3">5. Tarifs</h2>
+      <h2 className="text-xl pb-3">Tarifs</h2>
       <p className="pb-2">
         Les tarifs des prestations réalisées par le Prestataire sont indiqués en
         euro. Ils sont appliqués à l&apos;heure ou au forfait. Néanmoins, un
         devis sur mesure peut être proposé en fonction de la demande du Client.
         Ainsi, les tarifs indiqués sur les supports de communication de
-        L&apos;Assist&apos;47 sont donnés à titre indicatif et ne remplace
+        L&apos;Assist&apos;47 sont donnés à titre indicatif et ne remplacent
         nullement un devis personnalisé en bonne et due forme. Les prestations
         du Prestataire ne sont pas soumises à la TVA (article 293b du CGI).
       </p>
-      <h2 className="text-xl pb-3">6. Remises et majorations</h2>
+
+      <h2 className="text-xl pb-3">Remises et majorations</h2>
       <p className="pb-2">
         Toute décision de remise ou d&apos;application de tarifs dégressifs,
         selon un pourcentage ou un forfait, demeure à la seule discrétion du
@@ -168,7 +149,7 @@ export default function ConditionsGeneralesDeVente() {
         1er Janvier.
       </p>
 
-      <h2 className="text-xl pb-3">7. Modalités de paiement</h2>
+      <h2 className="text-xl pb-3">Modalités de paiement</h2>
       <p className="pb-2">
         Le Prestataire établit une facture à chaque fin d&apos;intervention
         ponctuelle, ou mensuellement pour les interventions ponctuelles
@@ -185,10 +166,6 @@ export default function ConditionsGeneralesDeVente() {
         supérieur à 500€, un acompte de 30% sera demandé à la commande.
       </p>
       <p className="pb-2">
-        Pour les prestations régulières, en accord entre les deux Parties, un
-        échéancier de paiement peut être mis en place.
-      </p>
-      <p className="pb-2">
         Tout retard de paiement ou tout paiement partiel fera courir de plein
         droit une indemnité forfaitaire de recouvrement de 40€ (selon
         l&apos;article D.441-5 du code du commerce), sans qu&apos;aucune mise en
@@ -202,16 +179,11 @@ export default function ConditionsGeneralesDeVente() {
         charge exclusive du Client.
       </p>
 
-      <h2 className="text-xl pb-3">8. Responsabilité</h2>
+      <h2 className="text-xl pb-3">Responsabilité</h2>
       <p className="pb-2">
         Le Prestataire s&apos;engage, à titre d&apos;obligation de moyens, à
         exécuter avec tout le soin en usage dans sa profession les tâches
         commandées.
-      </p>
-      <p className="pb-2">
-        Chacune des parties déclare être assurée, notamment en Responsabilité
-        Civile Professionnelle, auprès d&apos;une compagnie notoirement solvable
-        et maintenir à jour toutes les polices d&apos;assurances nécessaires.
       </p>
       <p className="pb-2">
         Le Prestataire mettra en œuvre tous les moyens nécessaires mis à sa
@@ -235,12 +207,12 @@ export default function ConditionsGeneralesDeVente() {
         Les textes, images et documents confiés au Prestataire restent la
         propriété du Client, qui seul, en assume les conditions
         d&apos;utilisation, notamment en ce qui concerne les droits de propriété
-        intellectuelle. Le Prestataire ne saurait être tenue responsable
+        intellectuelle. Le Prestataire ne saurait être tenu responsable
         d&apos;une quelconque utilisation frauduleuse de ces textes, images ou
         documents qui lui sont confiés par le Client.
       </p>
 
-      <h2 className="text-xl pb-3">9. Résiliation</h2>
+      <h2 className="text-xl pb-3">Résiliation</h2>
       <p className="pb-2">
         Si le Client souhaite annuler une prestation ponctuelle pour laquelle le
         devis a déjà été signé, il doit en informer le Prestataire, par écrit,
@@ -266,7 +238,7 @@ export default function ConditionsGeneralesDeVente() {
         Client.
       </p>
 
-      <h2 className="text-xl pb-3">10. Cas de force majeure</h2>
+      <h2 className="text-xl pb-3">Cas de force majeure</h2>
       <p className="pb-2">
         La responsabilité de l&apos;une ou l&apos;autre des Parties ne pourra
         pas être mise en œuvre si la non-exécution ou le retard dans
@@ -283,7 +255,7 @@ export default function ConditionsGeneralesDeVente() {
         des montants dus jusqu&apos;à la résiliation.
       </p>
 
-      <h2 className="text-xl pb-3">11. Confidentialité</h2>
+      <h2 className="text-xl pb-3">Confidentialité</h2>
       <p className="pb-2">
         Le Prestataire s&apos;engage à traiter de manière strictement
         confidentielle toute information et documentation liée à
@@ -293,7 +265,7 @@ export default function ConditionsGeneralesDeVente() {
       </p>
 
       <h2 className="text-xl pb-3">
-        12. Protection des données à caractère personnel
+        Protection des données à caractère personnel
       </h2>
       <p className="pb-2">
         Au titre des présentes conditions, le Prestataire est « sous-traitant
@@ -306,10 +278,17 @@ export default function ConditionsGeneralesDeVente() {
         vue des missions de support administratif. Elles sont stockées
         informatiquement et sont conservées en base active. Le Client peut en
         solliciter la modification et/ou la suppression à tout moment en faisant
-        la demande à l&apos;adresse suivante lpelosato@lassist47.fr.
+        la demande à l&apos;adresse suivante{" "}
+        <a
+          href="mailto:lpelosato@lassist47.fr"
+          className="underline hover:text-gold"
+        >
+          lpelosato@lassist47.fr
+        </a>{" "}
+        .
       </p>
 
-      <h2 className="text-xl pb-3">13. Litige</h2>
+      <h2 className="text-xl pb-3">Litige</h2>
       <p className="pb-2">
         Les parties s&apos;engagent à tenter un règlement amiable pour la
         résolution d&apos;un éventuel litige.

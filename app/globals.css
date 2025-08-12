@@ -23,3 +23,21 @@ h5,
 h6 {
   font-family: var(--font-cambria);
 }
+
+.cgv {
+  counter-reset: heading;
+}
+
+.cgv h2:before {
+  counter-increment: heading;
+  content: counter(heading) ". ";
+}
+
+.cgv h2 {
+  counter-reset: subheading;
+}
+
+.cgv h3:before {
+  counter-increment: subheading;
+  content: counter(heading) "." counter(subheading) " ";
+}
