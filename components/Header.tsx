@@ -20,7 +20,7 @@ export default function Header() {
           <ul className="flex space-x-2">
             <li className="bg-gold text-nblack p-1">
               <a
-                href="https://www.linkedin.com/in/lassist47/"
+                href="https://www.linkedin.com/company/lassist47/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -34,7 +34,7 @@ export default function Header() {
             </li>
             <li className="bg-gold text-nblack p-1">
               <a
-                href="https://www.facebook.com/people/Lassist47/61572424965502/"
+                href="https://www.facebook.com/profile.php?id=61572424965502"
                 target="_blank"
                 rel="noreferrer noopener"
               >

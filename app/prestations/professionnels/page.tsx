@@ -65,23 +65,22 @@ export default function Professionnels() {
               </li>
               <li>Suivi des encaissements et relance des impayés</li>
               <li>Contrôle et suivi des factures fournisseurs et clients</li>
-              <li>
-                Suivi de la trésorerie
-                <br />
-                Je n&apos;ai pas le droit d&apos;exercer la comptabilité, ceci
-                est un domaine réservé aux experts comptables selon l&apos;
-                <a
-                  href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033678961"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="underline hover:text-gold"
-                >
-                  ordonnance du 19 septembre 1945
-                </a>
-                . Je n&apos;interviens donc jamais sur logiciel comptable, tant
-                dans mon intérêt que dans le vôtre.
-              </li>
+              <li>Suivi de la trésorerie</li>
             </ul>
+            <p className="pt-4 italic">
+              Je n&apos;ai pas le droit d&apos;exercer la comptabilité, ceci est
+              un domaine réservé aux experts comptables selon l&apos;
+              <a
+                href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033678961"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="underline hover:text-gold"
+              >
+                ordonnance du 19 septembre 1945
+              </a>
+              . Je n&apos;interviens donc jamais sur logiciel comptable, tant
+              dans mon intérêt que dans le vôtre.
+            </p>
           </TabPanel>
           <TabPanel>
             <ul className="list-disc">

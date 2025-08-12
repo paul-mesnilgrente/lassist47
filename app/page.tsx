@@ -5,15 +5,16 @@ export default function Home() {
   return (
     <ContentContainer>
       <h1 className="text-2xl pb-3 font-bold">Présentation</h1>
-      <div className="flex justify-between space-x-6">
+      <div className="flex flex-col md:flex-row items-stretch gap-6">
         <Image
           src="/images/portrait.webp"
           alt="Portrait de Ludivine Pelosato"
-          className=""
-          width={250}
-          height={300}
+          width={200}
+          height={200}
+          className="md:h-full md:max-h-60 h-auto w-30 md:w-auto flex-none object-contain"
+          priority
         />
-        <div>
+        <div className="flex-1 min-w-0">
           <p className="pb-2">
             Bonjour, je suis Ludivine Pelosato, assistante administrative
             indépendante. Passionnée par l&apos;organisation et la gestion,

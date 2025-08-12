@@ -13,7 +13,7 @@ export default function MentionsLegales() {
       <p className="pb-2">
         EI Ludivine PELOSATO, enregistrée sous le nom L&apos;Assist&apos;47
         <br />
-        SIREN n° 123 456 789 RCS Agen
+        SIRET n° 988 744 348 00018
         <br />
         518 côte de Limousy, 47380 Pinel-Hauterive
         <br />
