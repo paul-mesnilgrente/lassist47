@@ -24,8 +24,8 @@ export default function Particuliers() {
             <ul className="list-disc mb-4">
               <li>Tarif à l&apos;heure : 30€ ; 32€ sur site (max 20km)</li>
               <li>
-                Tarif au forfait (au mois) : 2h/semaine 250€ ; 3h/semaine 360€ ;
-                4h/semaine 470€
+                Forfait mensuel (tarif préférentiels) : 2h/semaine 240€ ;
+                3h/semaine 350€ ; 4h/semaine 460€
               </li>
             </ul>
             <p>Devis selon vos besoins à la demande.</p>
