@@ -15,9 +15,9 @@ export default function Particuliers() {
           <Tab className="p-2 min-w-40 text-center bg-gold text-nblack hover:underline">
             Assistance administrative
           </Tab>
-          <Tab className="p-2 min-w-40 text-center bg-gold text-nblack hover:underline">
+          {/* <Tab className="p-2 min-w-40 text-center bg-gold text-nblack hover:underline">
             Initiations informatiques
-          </Tab>
+          </Tab> */}
         </TabList>
         <TabPanels className="p-11 bg-nblack border-4 border-gold">
           <TabPanel>
