@@ -51,7 +51,9 @@ export default function ConditionsGeneralesDeVente() {
       </p>
       <p className="pb-2">
         Une fois la mission réalisée, le travail sera remis au client selon le
-        délai fixé et selon le mode de transmission convenu.
+        délai fixé et selon le mode de transmission convenu. Le Prestataire se
+        réserve le droit de refuser tous travaux dont les intentions seraient
+        contraires à l&apos;honnêteté ou à la morale.
       </p>
       <h3 className="text-lg pb-1">Obligation et engagement du Client</h3>
       <p className="pb-2">
@@ -66,9 +68,10 @@ export default function ConditionsGeneralesDeVente() {
         Au cas où le client serait insatisfait des prestations réalisées par le
         Prestataire et souhaiterait que le travail soit éventuellement corrigé,
         il doit en informer le Prestataire par écrit dans les soixante-douze
-        (72) heures suivant la fin de la réalisation de la prestation. Passé ce
-        délai, la prestation sera considérée comme dûment exécutée et son
-        paiement devra être honoré.
+        (72) heures suivant la fin de la réalisation de la prestation sauf
+        défauts manifestes ultérieurs ou éléments non visibles à la livraison.
+        Passé ce délai, la prestation sera considérée comme dûment exécutée et
+        son paiement devra être honoré.
       </p>
       <h3 className="text-lg pb-1">
         Durée des contrats de prestation de services
@@ -101,8 +104,8 @@ export default function ConditionsGeneralesDeVente() {
         pourra faire l&apos;objet de pénalités de retard au profit du Client.
       </p>
       <p className="pb-2">
-        Le Prestataire se réserve la possibilité, après avoir informé le Client,
-        de rallonger le délai de livraison et ajuster la facturation (selon le
+        Le Prestataire se réserve la possibilité, après accord du Client, de
+        rallonger le délai de livraison et ajuster la facturation (selon le
         tarif horaire), dans le cas où ce dernier modifie ou ajoute des tâches
         en cours de réalisation de prestation. Un dépassement de délai justifié
         ne peut en aucun cas donner lieu à l&apos;annulation de la commande.
@@ -115,10 +118,6 @@ export default function ConditionsGeneralesDeVente() {
         facturées selon le tarif horaire défini, dès lors qu&apos;il aura été
         prévenu du dépassement par le Prestataire en cours de réalisation.
       </p>
-      <p className="pb-2">
-        Le Prestataire se réserve le droit de refuser tous travaux dont les
-        intentions seraient contraires à l&apos;honnêteté ou à la morale.
-      </p>
 
       <h2 className="text-xl pb-3">Tarifs</h2>
       <p className="pb-2">
@@ -129,6 +128,23 @@ export default function ConditionsGeneralesDeVente() {
         L&apos;Assist&apos;47 sont donnés à titre indicatif et ne remplacent
         nullement un devis personnalisé en bonne et due forme. Les prestations
         du Prestataire ne sont pas soumises à la TVA (article 293b du CGI).
+      </p>
+
+      <h2 className="text-xl pb-3">
+        Remises, offres promotionnelles et majorations
+      </h2>
+      <p className="pb-2">
+        Toute décision de remise, d&apos;application de tarifs dégressifs ou
+        d&apos;offres promotionnelles, selon un pourcentage ou un forfait,
+        demeure à la seule discrétion du Prestataire et ce, uniquement pour la
+        prestation qui en est l&apos;objet. Les conditions et la durée des
+        remises ou offres promotionnelles sont précisées sur les supports de
+        communication correspondants. Les remises ou rabais éventuellement
+        accordés au Client ne sauraient en aucun cas faire naître un droit
+        acquis pour des prestations postérieures. Toute prestation devant être
+        réalisée en urgence sera majorée de 50 % si elle doit être réalisée un
+        dimanche ou un jour férié. Le Prestataire se réserve le droit de réviser
+        ses tarifs annuellement au 1er janvier.
       </p>
 
       <h2 className="text-xl pb-3">Remises et majorations</h2>
@@ -245,7 +261,7 @@ export default function ConditionsGeneralesDeVente() {
         l&apos;exécution de l&apos;une de ses obligations décrites dans les
         présentes CGV découle d&apos;un cas de force majeure. À ce titre, la
         force majeure s&apos;entend de tout évènement imprévisible, irrésistible
-        et extérieur, au sens de l&apos;article 1148 du Code Civil.
+        et extérieur, au sens de l&apos;article 1218 du Code Civil.
       </p>
       <p className="pb-2">
         La partie affectée par un cas de force majeure devra en aviser sans
