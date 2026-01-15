@@ -30,7 +30,7 @@ export default function Nav() {
                   className="block mb-2 p-2 bg-gold data-focus:bg-gold data-focus:text-gray-900 data-focus:outline-hidden"
                   href="/prestations/professionnels"
                 >
-                  Professionels
+                  Professionnels
                 </Link>
               </MenuItem>
               <MenuItem>
