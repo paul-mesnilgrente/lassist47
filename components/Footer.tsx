@@ -36,7 +36,7 @@ export default function Footer() {
                 />
               </a>
             </li>
-            <li className="bg-gold text-nblack p-1">
+            {/* <li className="bg-gold text-nblack p-1">
               <Link
                 href="https://www.facebook.com/profile.php?id=61572424965502"
                 target="_blank"
@@ -49,7 +49,7 @@ export default function Footer() {
                   height={33}
                 />
               </Link>
-            </li>
+            </li> */}
           </ul>
         </section>
       </div>

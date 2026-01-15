@@ -32,7 +32,7 @@ export default function Header() {
                 />
               </a>
             </li>
-            <li className="bg-gold text-nblack p-1">
+            {/* <li className="bg-gold text-nblack p-1">
               <a
                 href="https://www.facebook.com/profile.php?id=61572424965502"
                 target="_blank"
@@ -45,7 +45,7 @@ export default function Header() {
                   height={33}
                 />
               </a>
-            </li>
+            </li> */}
           </ul>
         </section>
       </div>
