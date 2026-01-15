@@ -15,9 +15,9 @@ export default function Particuliers() {
           <Tab className="p-2 min-w-40 text-center bg-gold text-nblack hover:underline">
             Assistance administrative
           </Tab>
-          {/* <Tab className="p-2 min-w-40 text-center bg-gold text-nblack hover:underline">
+          <Tab className="p-2 min-w-40 text-center bg-gold text-nblack hover:underline">
             Atelier d'initiation
-          </Tab> */}
+          </Tab>
         </TabList>
         <TabPanels className="p-11 bg-nblack border-4 border-gold">
           <TabPanel>
@@ -35,20 +35,16 @@ export default function Particuliers() {
             </ul>
           </TabPanel>
           <TabPanel>
-            <ul className="list-disc mb-4">
-              <li>Initiation aux outils microsoft (word, excel, powerpoint)</li>
-              <li>
-                Initiation à l&apos;outil informatique (fonctions de base
-                d&apos;un ordinateur)
-              </li>
-              <li>
-                Initiation aux outils en ligne (bases d&apos;internet, mail)
-              </li>
-              <li>
-                Initiation aux réseaux sociaux (Facebook, Linkedin, Instagram,
-                Tik Tok)
-              </li>
-            </ul>
+            <p className="pb-2">
+              Ateliers d&apos;initiation aux outils numériques du quotidien à
+              destination des particuliers, visant l&apos;autonomie personnelle
+              (gestion des documents, budget personnel, communication en ligne,
+              usage des réseaux sociaux à titre privé).
+            </p>
+            <p className="pb-2 italic">
+              Ces ateliers n&apos;ont pas pour objectif le développement de
+              compétences professionnelles. Je ne suis pas formatrice.
+            </p>
           </TabPanel>
         </TabPanels>
       </TabGroup>
