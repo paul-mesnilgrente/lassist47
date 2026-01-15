@@ -16,7 +16,7 @@ export default function Particuliers() {
             Assistance administrative
           </Tab>
           <Tab className="p-2 min-w-40 text-center bg-gold text-nblack hover:underline">
-            Atelier d'initiation
+            Atelier d&apos;initiation
           </Tab>
         </TabList>
         <TabPanels className="p-11 bg-nblack border-4 border-gold">
@@ -41,7 +41,7 @@ export default function Particuliers() {
               (gestion des documents, budget personnel, communication en ligne,
               usage des réseaux sociaux à titre privé).
             </p>
-            <p className="pb-2 italic">
+            <p className="italic">
               Ces ateliers n&apos;ont pas pour objectif le développement de
               compétences professionnelles. Je ne suis pas formatrice.
             </p>

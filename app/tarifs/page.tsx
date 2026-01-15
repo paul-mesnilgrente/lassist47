@@ -27,15 +27,22 @@ export default function Particuliers() {
                 Forfait mensuel (tarif préférentiels) : 2h/semaine 240€ ;
                 3h/semaine 350€ ; 4h/semaine 460€
               </li>
+              <li>
+                Frais de déplacement : 20km aller-retour offerts par déplacement
+                puis 0.60€/km supplémentaire
+              </li>
             </ul>
-            <p>Devis selon vos besoins à la demande.</p>
+            <p className="italic">Devis gratuit à la demande.</p>
           </TabPanel>
           <TabPanel>
             <ul className="list-disc mb-4">
               <li>Tarif à l&apos;heure : 25€ l&apos;heure</li>
-              <li>Initiation Word ou Excel (1h) : 60€</li>
+              <li>Atelier d&apos;initation (1h) : 60€</li>
+              <li>
+                Frais de déplacement : 20km aller-retour offerts par déplacement
+                puis 0.60€/km supplémentaire
+              </li>
             </ul>
-            <p>Devis selon vos besoins à la demande.</p>
           </TabPanel>
         </TabPanels>
       </TabGroup>
