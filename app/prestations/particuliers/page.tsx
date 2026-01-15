@@ -16,7 +16,7 @@ export default function Particuliers() {
             Assistance administrative
           </Tab>
           {/* <Tab className="p-2 min-w-40 text-center bg-gold text-nblack hover:underline">
-            Initiations informatiques
+            Atelier d'initiation
           </Tab> */}
         </TabList>
         <TabPanels className="p-11 bg-nblack border-4 border-gold">
