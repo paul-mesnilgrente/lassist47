@@ -24,7 +24,7 @@ export default function Footer() {
           <ul className="flex space-x-2">
             <li className="bg-gold text-nblack p-1">
               <a
-                href="https://www.linkedin.com/company/lassist47/"
+                href="https://www.linkedin.com/in/ludivine-pelosato-assistante"
                 target="_blank"
                 rel="noreferrer noopener"
               >
