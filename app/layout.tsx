@@ -1,6 +1,5 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import LaunchOfferModal from "@/components/LaunchOfferModal";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -63,7 +62,7 @@ export default function RootLayout({
         className={`${cambria.variable} ${bahnschrift.variable} min-h-screen flex flex-col`}
       >
         <Header />
-        <LaunchOfferModal />
+        {/* <LaunchOfferModal /> */}
 
         <main className="flex flex-col justify-center flex-grow">
           {children}
