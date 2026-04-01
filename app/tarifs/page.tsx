@@ -22,11 +22,8 @@ export default function Particuliers() {
         <TabPanels className="p-11 bg-nblack border-4 border-gold">
           <TabPanel>
             <ul className="list-disc mb-4">
-              <li>Tarif à l&apos;heure : 30€</li>
-              <li>
-                Forfait mensuel (tarif préférentiels) : 2h/semaine 240€ ;
-                3h/semaine 350€ ; 4h/semaine 460€
-              </li>
+              <li>Tarif à l&apos;heure : à partir de 30€</li>
+              <li>Forfait mensuel : à partir de 240€ ;</li>
               <li>
                 Frais de déplacement : 20km aller-retour offerts par déplacement
                 puis 0.60€/km supplémentaire
