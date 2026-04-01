@@ -19,7 +19,7 @@ export default function ConditionsGeneralesDeVente() {
         Parties »). Celles-ci sont applicables à toutes commandes de prestations
         passées auprès de l&apos;Entreprise Individuelle Ludivine PELOSATO,
         micro-entrepreneure, enregistrée sous le n° SIRET : 988 744 348 00018
-        sous le nom de L&apos;Assist&apos;47
+        sous le nom de L&apos;Assist&apos;47.
       </p>
 
       <h2 className="text-xl pb-3">Application</h2>
@@ -39,6 +39,7 @@ export default function ConditionsGeneralesDeVente() {
       </p>
 
       <h2 className="text-xl pb-3">Obligation des parties</h2>
+
       <h3 className="text-lg pb-1">Obligation et engagement du Prestataire</h3>
       <p className="pb-2">
         Le Prestataire s&apos;engage à effectuer la prestation au domicile du
@@ -55,6 +56,7 @@ export default function ConditionsGeneralesDeVente() {
         réserve le droit de refuser tous travaux dont les intentions seraient
         contraires à l&apos;honnêteté ou à la morale.
       </p>
+
       <h3 className="text-lg pb-1">Obligation et engagement du Client</h3>
       <p className="pb-2">
         Le Client s&apos;engage à apporter la collaboration et la coopération
@@ -73,6 +75,7 @@ export default function ConditionsGeneralesDeVente() {
         Passé ce délai, la prestation sera considérée comme dûment exécutée et
         son paiement devra être honoré.
       </p>
+
       <h3 className="text-lg pb-1">
         Durée des contrats de prestation de services
       </h3>
@@ -85,7 +88,9 @@ export default function ConditionsGeneralesDeVente() {
         pour une durée indéterminée. Ce contrat est résiliable par demande
         écrite de l&apos;une ou l&apos;autre partie sept(7) jours avant la fin
         du mois en cours, sous condition pour le Client que toutes les
-        prestations effectuées aient été réglées au Prestataire.
+        prestations effectuées aient été réglées au Prestataire. Certains devis
+        ou offres promotionnelles peuvent prévoir une durée minimale
+        d&apos;engagement, précisée sur le support concerné.
       </p>
 
       <h2 className="text-xl pb-3">Exécution et délais de livraison</h2>
@@ -139,21 +144,11 @@ export default function ConditionsGeneralesDeVente() {
         demeure à la seule discrétion du Prestataire et ce, uniquement pour la
         prestation qui en est l&apos;objet. Les conditions et la durée des
         remises ou offres promotionnelles sont précisées sur les supports de
-        communication correspondants. Les remises ou rabais éventuellement
-        accordés au Client ne sauraient en aucun cas faire naître un droit
-        acquis pour des prestations postérieures. Toute prestation devant être
-        réalisée en urgence sera majorée de 50 % si elle doit être réalisée un
-        dimanche ou un jour férié. Le Prestataire se réserve le droit de réviser
-        ses tarifs annuellement au 1er janvier.
+        communication correspondants.
       </p>
-
-      <h2 className="text-xl pb-3">Remises et majorations</h2>
       <p className="pb-2">
-        Toute décision de remise ou d&apos;application de tarifs dégressifs,
-        selon un pourcentage ou un forfait, demeure à la seule discrétion du
-        Prestataire et ce, uniquement pour la prestation qui en est
-        l&apos;objet. Les remises ou rabais éventuellement accordés au Client ne
-        sauraient en aucun cas faire naître un droit acquis pour des prestations
+        Les remises ou rabais éventuellement accordés au Client ne sauraient en
+        aucun cas faire naître un droit acquis pour des prestations
         postérieures.
       </p>
       <p className="pb-2">
@@ -162,7 +157,7 @@ export default function ConditionsGeneralesDeVente() {
       </p>
       <p className="pb-2">
         Le Prestataire se réserve le droit de réviser ses tarifs annuellement au
-        1er Janvier.
+        1er janvier.
       </p>
 
       <h2 className="text-xl pb-3">Modalités de paiement</h2>
@@ -186,7 +181,7 @@ export default function ConditionsGeneralesDeVente() {
         droit une indemnité forfaitaire de recouvrement de 40€ (selon
         l&apos;article D.441-5 du code du commerce), sans qu&apos;aucune mise en
         demeure ne soit nécessaire, et ce, dès le 30ème jour à compter de la
-        date d&apos;émission de la facture.{" "}
+        date d&apos;émission de la facture.
       </p>
       <p className="pb-2">
         Pour tout défaut de paiement à l&apos;échéance convenue, le Prestataire
@@ -300,7 +295,7 @@ export default function ConditionsGeneralesDeVente() {
           className="underline hover:text-gold"
         >
           lpelosato@lassist47.fr
-        </a>{" "}
+        </a>
         .
       </p>
 
